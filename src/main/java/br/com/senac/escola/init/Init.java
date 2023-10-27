@@ -26,40 +26,40 @@ public class Init implements ApplicationListener<ContextRefreshedEvent> {
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 		
 //		
-		// Aluno aluno1 = new Aluno();
+		 Aluno aluno1 = new Aluno();
 		
-		// aluno1.setNome("leandro");
-		// aluno1.setEmail("leandro@gmail.com");
-		// aluno1.setSobreNome("Arraes");
-		// alunoService.salvar(aluno1);
-		// alunoService.salvar(aluno1);
+		 aluno1.setNome("leandro");
+		 aluno1.setEmail("leandro@gmail.com");
+		 aluno1.setSobreNome("Arraes");
+		 alunoService.salvar(aluno1);
+		 alunoService.salvar(aluno1);
 
-		// Aluno aluno2 = new Aluno();
-		// aluno2.setEmail("gabriel@gmail.com");
-		// aluno2.setNome("Gabriel");
-		// aluno2.setSobreNome("Silva");
-		// alunoService.salvar(aluno2);
+		 Aluno aluno2 = new Aluno();
+		 aluno2.setEmail("gabriel@gmail.com");
+		 aluno2.setNome("Gabriel");
+		 aluno2.setSobreNome("Silva");
+		 alunoService.salvar(aluno2);
 		
-		// Aluno aluno3 = new Aluno();
-		// aluno3.setEmail("karen@gmail.com");
-		// aluno3.setNome("Karen");
-		// aluno3.setSobreNome("Silva");
-		// alunoService.salvar(aluno3);
+		 Aluno aluno3 = new Aluno();
+		 aluno3.setEmail("karen@gmail.com");
+		 aluno3.setNome("Karen");
+		 aluno3.setSobreNome("Silva");
+		 alunoService.salvar(aluno3);
 
-		// List<Aluno> listaAlunos =  alunoService.buscarTotosAlunos();
-		// listaAlunos.forEach(aluno -> System.out.println(aluno.getNome()));
+		 List<Aluno> listaAlunos =  alunoService.buscarTodosAlunos();
+		 listaAlunos.forEach(aluno -> System.out.println(aluno.getNome()));
 
-		// Professor professor1 = new Professor();
-		// professor1.setEmail("marcelo@gmail.com");
-		// professor1.setNome("Marcelo");
-		// professor1.setSobreNome("Estruc");
-		// professorService.salvar(professor1);
+		 Professor professor1 = new Professor();
+		 professor1.setEmail("marcelo@gmail.com");
+		 professor1.setNome("Marcelo");
+		 professor1.setSobreNome("Estruc");
+		 professorService.salvar(professor1);
 
-		// Professor professor2 = new Professor();
-		// professor2.setEmail("gabi@gmail.com");
-		// professor2.setNome("gabi");
-		// professor2.setSobreNome("fessora");
-		// professorService.salvar(professor2);
+		 Professor professor2 = new Professor();
+		 professor2.setEmail("gabi@gmail.com");
+		 professor2.setNome("gabi");
+		 professor2.setSobreNome("fessora");
+		 professorService.salvar(professor2);
 		
 		
 	
